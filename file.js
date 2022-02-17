@@ -6,7 +6,10 @@ function inputField(convertToNumber) {
     const inputText = input.value;
     const inputNumber = parseFloat(inputText);
 
-    return inputNumber
+    if (inputNumber > 0) {
+        return inputNumber
+    }
+
 }
 
 // total expenses for common function 

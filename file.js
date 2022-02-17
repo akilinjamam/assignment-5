@@ -14,13 +14,7 @@ function inputField(convertToNumber) {
 function expenseTotal(expensesFood, expensesRent, expensesClothes) {
 
     const totalExpenses = document.getElementById('total-expenses');
-
-
-
     const totalExpensesAmount = expensesFood + expensesRent + expensesClothes;
-
-
-
     totalExpenses.innerText = totalExpensesAmount;
     return totalExpensesAmount;
 

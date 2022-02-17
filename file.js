@@ -9,7 +9,7 @@ function inputField(convertToNumber) {
     return inputNumber
 }
 
-// total expenses
+// total expenses for common function 
 
 function expenseTotal(expensesFood, expensesRent, expensesClothes) {
 
@@ -20,7 +20,7 @@ function expenseTotal(expensesFood, expensesRent, expensesClothes) {
 
 }
 
-
+// added click handler with total balance and total expenses
 document.getElementById('calculate').addEventListener('click', function () {
 
     const textToNumberFood = inputField('food');
@@ -57,7 +57,7 @@ document.getElementById('calculate').addEventListener('click', function () {
     }
 })
 
-
+// added click handler with total saving and remaining balance after savings
 document.getElementById('save-button').addEventListener('click', function () {
     // console.log('clicked');
 

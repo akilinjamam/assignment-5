@@ -14,11 +14,11 @@ function inputField(convertToNumber) {
 function expenseTotal(expensesFood, expensesRent, expensesClothes) {
 
     const totalExpenses = document.getElementById('total-expenses');
-    if (totalExpenses > 0) {
-        const totalExpensesAmount = expensesFood + expensesRent + expensesClothes;
-        totalExpenses.innerText = totalExpensesAmount;
-        return totalExpensesAmount;
-    }
+
+    const totalExpensesAmount = expensesFood + expensesRent + expensesClothes;
+    totalExpenses.innerText = totalExpensesAmount;
+    return totalExpensesAmount;
+
 
 
 }

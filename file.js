@@ -55,15 +55,7 @@ document.getElementById('calculate').addEventListener('click', function () {
         totalExpensess.innerText = '0'
 
     }
-
-
-
-
-
-
-
 })
-
 
 
 document.getElementById('save-button').addEventListener('click', function () {

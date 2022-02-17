@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+
+    <!-- this is Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <br><br>
+    <h1 class="font-bold text-4xl text-center text-orange-400">Personal Accounce</h1>
+    <br><br>
+    <section class="w-3/4 mx-auto">
+        <div class="flex">
+            <div class="bg-gray-100 flex-1 p-3">
+                <img class="" src="images/atm2.jpg" alt="">
+            </div>
+
+            <div class="bg-gray-100 flex-1 ml-5">
+                <div class="mx-auto w-3/4 flex">
+
+
+                    <div class="flex-1 mt-24">
+                        <span class="font-bold ml-24">Income:</span><br><br><br><br>
+
+                        <span class="font-bold ml-28">Food:</span><br><br>
+                        <span class="font-bold ml-28">Rent:</span><br><br>
+                        <span class="font-bold ml-24">Clothes:</span><br><br>
+                    </div>
+
+
+                    <div class="flex-1 mt-12">
+                        <p class="font-bold text-center">Income:</p><br>
+                        <input type="text" name="" id="input-income"><br><br>
+                        <p class="font-bold text-center">Expense:</p><br>
+                        <p id="expense-less" class="notify" style="font-size: 12px; display:none;">❌expense invalid
+
+                        </p>
+                        <input type="text" name="" id="food"><br><br>
+                        <input type="text" name="" id="rent"><br><br>
+                        <input type="text" name="" id="clothes"><br><br>
+                    </div>
+
+                </div>
+
+                <div class="w-1/5 ml-72">
+
+                    <button id="calculate" class="bg-green-300 p-2 font-bold rounded">Calculate</button>
+                </div>
+                <br>
+                <div class="ml-64 w-2/4">
+                    <p class="font-bold">Total Expense: <span id="total-expenses">00</span></p> <br>
+                    <p class="font-bold">Balance: <span id="balance-display">00</span></p>
+                </div>
+                <br>
+
+                <div class="font-bold ml-64">
+                    <p id="not-enough" class="notify" style="font-size: 12px; display:none;">❌ you have no balance to
+                        save</p>
+                    <span>Save</span>
+                    <input class="w-1/6 ml-2" type="text" name="" id="save">
+                    <span class="font-bold ml-2">%</span>
+                    <button id="save-button" class="bg-green-300 p-1 px-4 font-bold rounded ml-1">Save</button>
+                </div>
+                <br>
+                <div class="w-2/4 ml-64">
+                    <p class="font-bold mb-2">Saving Amount: <span id="saving-display">00</span></p>
+                    <p class="font-bold">Remaining Balance: <span id="remaining-display">00</span></p><br>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <br>
+
+    <script src="file.js"></script>
+</body>
+
+</html>
